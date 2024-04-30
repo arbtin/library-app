@@ -1,1 +1,1 @@
-# library-app
+# full-stack-starter

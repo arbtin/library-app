@@ -1,0 +1,2 @@
+ALTER TABLE AIRCRAFT ADD COLUMN crew_chief_id INT;
+ALTER TABLE AIRCRAFT ADD CONSTRAINT crew_chief_fk FOREIGN KEY (crew_chief_id) REFERENCES crew_chief (id);
